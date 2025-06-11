@@ -1,5 +1,8 @@
-import styled from '@emotion/styled'
+//import styled from '@emotion/styled'
 
+import ShoppingCanvas from "./component/three/ShoppingCanvas";
+
+/*
 const Button = styled.button`
   padding: 32px;
   background-color: hotpink;
@@ -9,10 +12,15 @@ const Button = styled.button`
   font-weight: bold;
   &:hover {
     color: white;
-  }
-`
+  }`
+    */
+
 function App() {
-  return <Button>This my button component.</Button>
+  return (
+    <>
+      <ShoppingCanvas />
+    </>
+  );
 }
 
-export default App
+export default App;
